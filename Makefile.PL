@@ -19,6 +19,15 @@ WriteMakefile(
 		'List::MoreUtils'	=> 0,
 		'Clone'		=> 0,
 	},
+	'BUILD_REQUIRES' => {
+		'YAML'		=> 0,
+	},
+	META_MERGE     => {
+		resources  => {
+			repository => 'http://github.com/muir/Stream-Aggregate',
+		},
+	},
+
 );
 
 package MY;
@@ -33,3 +42,4 @@ README: lib/Stream/Aggregate.pod
 
 END_OF_POSTAMBLE
 }
+
