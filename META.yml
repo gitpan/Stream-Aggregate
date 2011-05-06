@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Stream-Aggregate
-version:            0.403
+version:            0.404
 abstract:           Aggregate a data stream
 author:
     - David Muir Sharnoff <muir@idiom.org>
@@ -20,6 +20,7 @@ requires:
     List::EvenMoreUtils:  0
     List::MoreUtils:      0
     List::Util:           0
+    Tie::Function::Examples:  0
 resources:
     repository:  http://github.com/muir/Stream-Aggregate
 no_index:

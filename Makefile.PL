@@ -18,6 +18,7 @@ WriteMakefile(
 		'Data::Dumper'		=> 0,
 		'List::MoreUtils'	=> 0,
 		'Clone'		=> 0,
+		'Tie::Function::Examples' => 0
 	},
 	'BUILD_REQUIRES' => {
 		'YAML'		=> 0,
