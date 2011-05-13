@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Stream-Aggregate
-version:            0.405
+version:            0.406
 abstract:           Aggregate a data stream
 author:
     - David Muir Sharnoff <muir@idiom.org>
